@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Computer-Science Compass</title>
+    <link rel="stylesheet" href="styles.css"> 
+</head>
+<body>
+    <header class="header">
+        <div class="header_cont">
+            <img src="Assets/images/Your_paragraph_text-removebg-preview.png" alt="Computer-Science Compass Logo" style="height: 120px;width: 140px;" >
+            <h1 class="name">Prepa IT Guide:</h1>
+            <div class="header_cont" style="background-color:rgba(255, 255, 255, 0) ;">
+                <a href="KM_Log/Signin.html"><button id="login_btn">Log In</button></a> 
+                <a href="KM_Log/Signup.html"><button id="logup_btn">Sign Up</button></a> 
+                <span id="username"></span>
+                <button href="#" id="logout_btn" >Log Out</button>
+            </div>
+        </div>
+    </header> 
+    <section class="main">
+        <h1 class="slogan">Your Gateway to Computer Science</h1>
+        <div class="search-cont">
+            <input type="text" id="searchInput" placeholder="Search...">
+            <button onclick="search()"><img src="Assets/images/search.svg" alt="" class="srch_icon"></button>
+        </div>
+    </section>
+    <section class="content"><h1 style="font-size: 35px;">Contenu</h1></section>
+    <hr>
+    <h2 style="color: black; font-size: 2rem; margin-left: 35px; margin-right: 35px; text-align: justify; font-weight: 500;">Vous trouvez ici la base de connaissance "IT Guide", conçue spécialement pour les étudiants post-prépa afin de les aider à choisir la filière informatique qui leur correspond le mieux et à tracer leur parcours idéal. <br> Cette base de connaissance regroupe des informations minutieusement collectées sur les écoles, des réponses aux questions fréquemment posées sur les filières et les établissements, des ressources pédagogiques, un guide d'orientation détaillé, ainsi que des liens utiles pour vous accompagner dans vos décisions académiques et professionnelles.</h2>
+    <hr>
+    <div id="results"></div>
+    <div class="rect_cont">
+        <a href="pages/faq.html">
+            <section class="rect">
+                <img src="Assets/images/faq.svg" alt="FAQ Icon" class="faq">
+                <h2>FAQ</h2>
+            </section>
+        </a>
+        <a href="pages/schools.html">
+            <section class="rect">
+                <img src="Assets/images/schools.svg" alt="FAQ Icon" class="faq">
+                <h2>Schools</h2>
+            </section>
+        </a>
+        <a href="pages/guides.html"> 
+            <section class="rect"> 
+                <img src="Assets/images/guide.svg" alt="Guides Icon" class="faq">
+                <h2>Guides</h2>
+            </section>
+        </a>
+        <a href="pages/ressources.html"> 
+            <section class="rect">
+                <img src="Assets/images/docs.svg" alt="Resources Icon" class="faq">
+                <h2>Resources</h2>
+            </section>
+        </a> <a href="pages/contact.html"> 
+            <section class="rect">
+                <img src="Assets/images/contact.svg" alt="Resources Icon" class="faq">
+                <h2>Contact</h2>
+            </section>
+        </a>
+    </div>    
+    <footer class="footer">
+        <img src="Assets/images/Your_paragraph_text-removebg-preview.png" alt="Computer-Science Compass Logo" class="logo" >
+        <h1 class="rights">All rights reserved</h1>
+    </footer>
+    <script src="script.js"></script>
+     <script src="KM_Log/signin.js"></script>
+</body>
+</html>
