@@ -1,6 +1,6 @@
 # KM website
 
-Welcome to our Engineering Schools Discovery Website README! This project aims to provide a comprehensive knowledge management database to assist students in discovering engineering schools and exploring various fields within Information Technology (IT). Whether you're a prospective student, educator, or industry professional, this platform is designed to be your go-to resource for navigating the world of engineering education.
+Welcome to our Engineering Schools Discovery Website. This project aims to provide a comprehensive knowledge management database to assist students in discovering engineering schools and exploring various fields within Information Technology (IT). Whether you're a prospective student, educator, or industry professional, this platform is designed to be your go-to resource for navigating the world of engineering education.
 
 ## Table of Contents
 
@@ -32,7 +32,7 @@ To install and run the Engineering Schools Discovery Website locally, follow the
 
 1. Clone the repository to your local machine:
    ```
-   git clone https://github.com/MARCUS-IMPERATOR/KM.git
+   git clone https://github.com/AUGUSTUS-IMPERATOR/KM.git
    ```
 2. install node.js server into your pc
  
